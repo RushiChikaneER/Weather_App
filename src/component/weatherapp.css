@@ -1,0 +1,83 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-box {
+    background-image: url('D:\ReactJs\weather-forecast-app\public\Climate-Weather-Blue-Clouds.jpg');
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+.app-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.search-bar input{
+background-color: #e8f1f4;
+}
+
+.city-search {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #bab6b6;
+    border-radius: 5px 0 0 5px;
+}
+
+ .search-button {
+    padding: 8px 20px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    border-radius: 0 5px 5px 0;
+    background-color: #787c80;
+    color: #fff;
+    cursor: pointer;
+} 
+
+.loading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: rgb(83, 3, 13);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.error-message svg {
+    margin-right: 10px;
+}
+
+.weather-info img {
+    display: block;
+    margin: 10px auto;
+}
